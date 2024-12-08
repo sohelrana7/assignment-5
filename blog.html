@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate Bangladesh</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main>
+      <nav class="bg-[#F9F7F3]">
+        <div class="navbar w-9/12 mx-auto">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm flex items-center dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <img src="./assets/logo.png" alt="" />
+                <h1>Donate Bangladesh</h1>
+              </ul>
+            </div>
+            <a
+              href="index.html"
+              class="px-2 py-2 rounded-md bg-[#B4F461] text-xl font-semibold cursor-pointer"
+              >Home</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 flex items-center">
+              <img class="" src="./assets/logo.png" alt="" />
+              <h1 class="text-xl font-semibold ml-2">Donate Bangladesh</h1>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <img class="mr-2 cursor-pointer" src="./assets/coin.png" alt="" />
+            <a class="cursor-pointer font-semibold text-xl">
+              <span id="main-balance">98600</span> BDT</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <!-- qusetion and answer  -->
+      <div class="w-9/12 mx-auto my-16">
+        <h1 class="text-4xl font-semibold">Important Faq ?</h1>
+        <div class="collapse collapse-arrow border">
+          <input type="radio" name="my-accordion-2" checked="checked" />
+          <div class="collapse-title text-xl font-medium">
+            What is the Document Object Modal (DOM)?
+          </div>
+          <div class="collapse-content">
+            <p>
+              The Document Object Model (DOM) is a programming interface for web
+              documents, representing the page structure as objects, allowing
+              scripts to dynamically access, modify, and update content and
+              structure.
+            </p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow border">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title text-xl font-medium">
+            how do you select on element from the DOM?
+          </div>
+          <div class="collapse-content">
+            <p>
+              To select an element from the DOM, use methods like
+              document.getElementById("id"), document.querySelector(".class" or
+              "tag"), or document.getElementsByClassName("class"). These return
+              references to matching elements.
+            </p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow border">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title text-xl font-medium">
+            what is event delegation in the context of the DOM, and why is it
+            useful?
+          </div>
+          <div class="collapse-content">
+            <p>
+              Event delegation is a technique where a parent element handles
+              events for its child elements using a single event listener,
+              improving performance and simplifying dynamic content management
+              by reducing multiple listeners.
+            </p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow border">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title text-xl font-medium">
+            how do you manipulate an element's attributes and styles using the
+            DOM?
+          </div>
+          <div class="collapse-content">
+            <p>
+              You can manipulate an element's attributes using setAttribute,
+              getAttribute, or removeAttribute. For styles, use the style
+              property, e.g., element.style.color = "red". You can also
+              add/remove CSS classes with classList.add, classList.remove, or
+              classList.toggle.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/assignment.js"></script>
+  </body>
+</html>
